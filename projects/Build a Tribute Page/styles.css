@@ -1,0 +1,79 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #5e6472;
+    margin: 0;
+}
+
+#main{
+    margin: 30px 10px;
+    padding: 15px;
+    border-radius: 10px;
+    background: #e5e5e5;
+}
+
+#main #title{
+    font-size: 40px;
+    padding-top: 30px;
+    color: black;
+}
+
+#main p{
+    padding-top: 15px;
+    color: black;
+}
+
+#main figure{
+    background: white;
+    margin: 0;
+}
+
+main figure figcaption{
+    padding: 20px;
+    font-style: normal;
+    color: #081c15;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-div{
+    background: white;
+    padding: 10px;
+    margin: 0;
+}
+
+#headline{
+    margin: 50px 0;
+    text-align: center;
+    color: black;
+    font-size: 2.5vmin;
+}
+
+ul{
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 2;
+}
+
+li{
+    margin: 10px auto;
+}
+
+blockquote{
+    font-style: italic;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 5vmin 0 5vmin 0;
+}

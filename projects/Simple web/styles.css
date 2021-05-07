@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Dancing+Script:wght@700&family=Josefin+Sans&display=swap');
+
+/* Main */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+
+    font-family: 'Josefin Sans', sans-serif;
+  
+}
+
+p{
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 20px;
+    color: teal; 
+}
+
+.main_container{
+    position: relative;
+}
+
+h1.title{
+    margin-bottom: 20px;
+    color: teal;
+    font-family: 'Dancing Script', cursive;
+    text-transform: uppercase;
+    font-size: 40px;
+    word-spacing: 25px;
+    letter-spacing: 5px;
+
+}
+
+
+/* Main end */
+
+/* Navigation Bar */
+.navbar{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+}
+
+.logo a{
+    font-family: 'Dancing Script', cursive;
+    font-size: 45px;
+    color: black;
+    
+}
+
+.logo a:hover{
+    color: violet;
+}
+
+.navbar .navbar_items ul{
+    display: flex;
+}
+
+.navbar .navbar_items ul li{
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.navbar .navbar_items ul li a:hover{
+    color: pink;
+}
+
+/* Banner Image */
+.banner_image{
+    background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_content{
+    text-align: center;
+}
+
+.banner_content h1{
+    text-transform: uppercase;
+    line-height: 45px;
+    margin-bottom: 15px;
+}
+
+.banner_content h1 span{
+    color: salmon;
+}
+/* Navigation Bar end */
+
+/* About us */
+.about,
+.services,
+.contact,
+.ourteam{
+    padding: 5% 10%;
+    text-align: center;
+}
+
+.btn a{
+    display: block;
+    width: 180px;
+    height: 35px;
+    border: 2px solid #d299c2;
+    line-height: 35px;
+    text-align: center;
+    margin: 25px auto;
+    color: rgb(112, 25, 112);
+}
+
+.btn a:hover{
+    background-color: oldlace;
+}
+/* About us end */
+
+/* Services */
+.services{
+    background-color: rgb(235, 235, 235);
+}
+
+.diff_services{
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-between;
+}
+
+.diff_service_item{
+    width: 25%;
+}
+
+.diff_service_item img{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.diff_service_item h3{
+    color: rgb(112, 25, 112);
+    margin-bottom: 15px;
+}
+
+
+/* Services end */
+
+
+/* Contact Us */
+.form_input{
+    margin-bottom: 15px;
+}
+
+.form_input input[type="text"]{
+    width: 250px;
+    padding: 12px;
+    border: 1px solid;
+}
+
+.form_input textarea{
+    width: 250px;
+    padding: 10px 20px;
+    height: 80px;
+    border: 1px solid;
+    resize: none;
+}
+
+/* Contact Us end */
+
+
+/* Our Team */
+.ourteam{
+    background-color: rgb(235, 235, 235); 
+}
+
+.ourteam_wrapper .team{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ourteam_wrapper .team-1.team{
+    margin-bottom: 25px;
+}
+
+.ourteam_wrapper .team_member{
+    width: 30%;
+    height: auto;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.ourteam_wrapper .team_member img{
+    width: 100%;
+    display: block;
+    height: 100%;
+    transition: all 0.5s ease;
+}
+
+.ourteam_wrapper .team_member:hover img{
+    transform: scale(1.1);
+}
+/* Our Team end */
+
+
+/* Footer */
+.footer{
+    width: 100%;
+    text-align: center;
+    background: #444444;
+    padding: 20px 0;
+}
+
+.footer a{
+    color: #fef9d7;
+}
+
+@media (max-width: 720px){
+    .navbar{
+        height: auto;
+        flex-direction: column;
+    }
+
+    .logo{
+        margin-bottom: 25px;
+    }
+
+}
+/* Footer end */
+
+
+/* Arrow */
+.arrow{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    background: #fb2274;
+    color: rgb(247, 229, 229);
+}
+
+/* Arrow end */

@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 7rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (max-width: 320px) {
+    h1 {
+      flex-direction: row;
+      padding-right: 10vmin;
+    }
+}
+
+@media (max-width: 375px) {
+    h1 {
+      flex-direction: row;
+      padding-left: 10vmin;
+    }
+    .countdown-el span{
+        color: white;
+    }
+    .big-text{
+        color: whitesmoke;
+    }
+}
+
+@media (max-width: 425px) {
+    h1 {
+      flex-direction: row;
+      padding-left: 5vmin;
+    }
+    .countdown-el span{
+        color: white;
+    }
+    .big-text{
+        color: whitesmoke;
+    }
+}
+
+@media(max-width: 768px){
+    h1{
+        padding-left: -10vmin;
+    }
+}
+
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.big-text{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.countdown-el{
+    text-align: center;
+}
+
+.countdown-el span{
+    font-size: 1.3rem;
+}
